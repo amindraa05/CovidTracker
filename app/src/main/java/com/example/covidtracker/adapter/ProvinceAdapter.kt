@@ -1,11 +1,11 @@
-package com.example.infocovid19.adapter
+package com.example.covidtracker.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.infocovid19.R
-import com.example.infocovid19.model.ProvinceResponse
+import com.example.covidtracker.R
+import com.example.covidtracker.model.ProvinceResponse
 import kotlinx.android.synthetic.main.item_province.view.*
 
 class ProvinceAdapter (private var list: ArrayList<ProvinceResponse>): RecyclerView.Adapter<ProvinceAdapter.ProvinceViewHolder>(){

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.infocovid19">
+    package="com.example.covidtracker">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_covid_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.SplashScreen">
+        <activity android:name="com.example.covidtracker.activity.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +21,7 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="com.example.covidtracker.activity.MainActivity">
 
         </activity>
 

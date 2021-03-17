@@ -1,11 +1,11 @@
-package com.example.infocovid19.activity
+package com.example.covidtracker.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
-import com.example.infocovid19.R
+import com.example.covidtracker.R
 
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

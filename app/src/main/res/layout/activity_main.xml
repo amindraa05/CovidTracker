@@ -32,8 +32,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/cairo"
-            android:text="Indonesia"
-            android:textSize="21sp"
+            android:text="Covid Tracker Indonesia"
+            android:textSize="22sp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="170dp"
         android:paddingTop="12dp"
         android:background="@drawable/btn_background"
         android:scaleType="fitXY"
@@ -61,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/cairo_bold"
-            android:text="100.000"
+            android:text="0"
             android:textColor="@android:color/white"
             android:textSize="30sp"
             android:textStyle="bold" />

@@ -1,7 +1,7 @@
-package com.example.infocovid19.api
+package com.example.covidtracker.api
 
-import com.example.infocovid19.model.IndonesiaResponse
-import com.example.infocovid19.model.ProvinceResponse
+import com.example.covidtracker.model.IndonesiaResponse
+import com.example.covidtracker.model.ProvinceResponse
 import retrofit2.Call
 import retrofit2.http.GET
 

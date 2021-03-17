@@ -1,4 +1,4 @@
-package com.example.infocovid19.model
+package com.example.covidtracker.model
 
 data class ProvinceResponse(
      val attributes: Province

@@ -1,15 +1,15 @@
-package com.example.infocovid19.activity
+package com.example.covidtracker.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.infocovid19.R
-import com.example.infocovid19.adapter.ProvinceAdapter
-import com.example.infocovid19.api.RetrofitClient
-import com.example.infocovid19.model.IndonesiaResponse
-import com.example.infocovid19.model.ProvinceResponse
+import com.example.covidtracker.R
+import com.example.covidtracker.adapter.ProvinceAdapter
+import com.example.covidtracker.api.RetrofitClient
+import com.example.covidtracker.model.IndonesiaResponse
+import com.example.covidtracker.model.ProvinceResponse
 import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Callback

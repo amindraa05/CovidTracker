@@ -1,4 +1,4 @@
-package com.example.infocovid19.api
+package com.example.covidtracker.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
