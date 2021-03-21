@@ -16,8 +16,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+
             android:text="TextView"
-            android:textColor="#222831"
+            android:textColor="#661D79"
             android:fontFamily="@font/cairo_bold"
             android:textSize="18sp"
             android:textStyle="bold"
