@@ -4,4 +4,24 @@
     <color name="colorPrimaryDark">#0D7377</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="colorNavBotBar">#E7E7E7</color>
+    <color name="WarnaSatu">#FFBB91</color>
+    <color name="WarnaDua">#FF8E6E</color>
+    <color name="WarnaTiga">#515070</color>z
+    <color name="WarnaLima">#767474</color>
+
+    <array name="array_dot_active">
+        <item>@color/WarnaDua</item>
+        <item>@color/WarnaDua</item>
+        <item>@color/WarnaDua</item>
+        <item>@color/WarnaDua</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/WarnaSatu</item>
+        <item>@color/WarnaSatu</item>
+        <item>@color/WarnaSatu</item>
+        <item>@color/WarnaSatu</item>
+    </array>
+
+
 </resources>

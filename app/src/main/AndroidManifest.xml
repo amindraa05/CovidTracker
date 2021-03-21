@@ -8,22 +8,24 @@
         android:allowBackup="true"
         android:icon="@drawable/app_icon"
         android:label="Covid Tracker Indonesia"
-        android:usesCleartextTraffic="true"
-
         android:roundIcon="@mipmap/ic_launcher_covid_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name="com.example.covidtracker.activity.SplashScreen">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <receiver
+            android:name=".utils.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
+        <activity android:name=".activity.welcome.WelcomeActivity" />
+        <activity android:name=".activity.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name="com.example.covidtracker.activity.MainActivity">
-
-        </activity>
+        <activity android:name=".activity.MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -1,22 +1,24 @@
 package com.example.covidtracker.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.WindowManager
-import android.widget.Toast
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.example.covidtracker.R
-import com.example.covidtracker.adapter.ProvinceAdapter
-import com.example.covidtracker.api.RetrofitClient
-import com.example.covidtracker.model.IndonesiaResponse
-import com.example.covidtracker.model.ProvinceResponse
+import com.example.covidtracker.fragment.HomeFragment
+import com.example.covidtracker.fragment.NotificationFragment
+import com.example.covidtracker.fragment.PersebaranFragment
+import com.example.covidtracker.utils.AlarmReceiver
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
+
 
 @Suppress("DEPRECATION")
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
+
+    private lateinit var alarmReceiver: AlarmReceiver
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.setFlags(
@@ -24,54 +26,52 @@ class MainActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
 
+        alarmReceiver = AlarmReceiver()
+
         setContentView(R.layout.activity_main)
-        showIndonesia()
-        showProvince()
+//        showIndonesia()
+//        showProvince()
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(this)
+
+//        btn_switch.setOnCheckedChangeListener { _, isChecked ->
+//            if (isChecked) {
+//                val repeatTime = "02:11"
+//                val repeatMessage = "Yuk buka Github User App"
+//                alarmReceiver.setRepeatingAlarm(
+//                    this, AlarmReceiver.TYPE_REPEATING,
+//                    repeatTime, repeatMessage
+//                )
+//            } else {
+//                alarmReceiver.cancelAlarm(this, AlarmReceiver.TYPE_REPEATING)
+//            }
+//        }
+
+        loadFragment(HomeFragment())
+
     }
 
-    private fun showIndonesia(){
-        RetrofitClient.instance.getIndonesia().enqueue(object :
-            Callback<ArrayList<IndonesiaResponse>> {
-
-            override fun onFailure(call: Call<ArrayList<IndonesiaResponse>>, t: Throwable) {
-                Toast.makeText(this@MainActivity, "${t.message}", Toast.LENGTH_SHORT).show()
-            }
-
-            override fun onResponse(
-                call: Call<ArrayList<IndonesiaResponse>>,
-                response: Response<ArrayList<IndonesiaResponse>>
-            ) {
-                val indonesia = response.body()?.get(0)
-                val positive = indonesia?.positif
-
-                tvPositive.text = positive
-            }
 
 
 
-        })
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        var fragment: Fragment? = null
+        when (item.getItemId()) {
+            R.id.ic_home -> fragment = HomeFragment()
+            R.id.ic_notification -> fragment = NotificationFragment()
+            R.id.ic_maps -> fragment = PersebaranFragment()
+        }
+        return loadFragment(fragment)
     }
-    private fun showProvince() {
-        rvProvince.setHasFixedSize(true)
-        rvProvince.layoutManager = LinearLayoutManager(this)
 
-        RetrofitClient.instance.getProvince().enqueue(object : Callback<ArrayList<ProvinceResponse>>{
-
-            override fun onFailure(call: Call<ArrayList<ProvinceResponse>>, t: Throwable) {
-                Toast.makeText(this@MainActivity, "${t.message}", Toast.LENGTH_SHORT).show()
-            }
-
-            override fun onResponse(
-                call: Call<ArrayList<ProvinceResponse>>,
-                response: Response<ArrayList<ProvinceResponse>>
-            ) {
-                val list = response.body()
-                val adapter = list?.let { ProvinceAdapter(it) }
-                rvProvince.adapter = adapter
-            }
-
-
-
-        })
+    private fun loadFragment(fragment: Fragment?): Boolean {
+        if (fragment != null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fl_container, fragment)
+                .addToBackStack(null)
+                .commit()
+            return true
+        }
+        return false
     }
 }
