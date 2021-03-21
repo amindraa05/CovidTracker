@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="32dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/onboard_satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/onboard_dua"
+        />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/txt_judul"
+        android:layout_below="@+id/onboard_satu"
+        android:layout_centerHorizontal="true"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="@font/cairo"
+        android:textStyle="bold"
+        android:text="Headline 2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="left"
+        android:textStyle="normal"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_judul"
+        android:textSize="16sp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"/>
+
+
+</RelativeLayout>
