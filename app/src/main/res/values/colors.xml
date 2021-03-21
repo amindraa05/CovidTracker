@@ -8,6 +8,8 @@
     <color name="WarnaDua">#FF8E6E</color>
     <color name="WarnaTiga">#515070</color>z
     <color name="WarnaLima">#767474</color>
+    <color name="MainWarna">#FFD8DB</color>
+    <color name="MainProvinsi">#EFEFEF</color>
 
     <array name="array_dot_active">
         <item>@color/WarnaDua</item>
