@@ -13,12 +13,6 @@
         android:layout_above="@id/bottomNavigationView"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView" />
 
-    <FrameLayout
-        android:id="@+id/fl_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:layout_above="@+id/bottomNavigationView"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
@@ -27,4 +21,13 @@
         android:background="@color/colorNavBotBar"
         android:layout_alignParentBottom="true"
         app:menu="@menu/menu"/>
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_above="@+id/bottomNavigationView"/>
+
+
 </RelativeLayout>

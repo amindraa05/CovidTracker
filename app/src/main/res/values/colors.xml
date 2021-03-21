@@ -10,6 +10,8 @@
     <color name="WarnaLima">#767474</color>
     <color name="MainWarna">#FFD8DB</color>
     <color name="MainProvinsi">#EFEFEF</color>
+    <color name="Merahh">#DA0C0C</color>
+    <color name="Ungu">#661D79</color>
 
     <array name="array_dot_active">
         <item>@color/WarnaDua</item>
