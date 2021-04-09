@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.BahasaFragment">
+
+    <RadioGroup
+        android:id="@+id/rg_lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English (US)"/>
+
+        <!--<RadioButton
+            android:id="@+id/rb_uk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English (UK)"/>-->
+
+        <RadioButton
+            android:id="@+id/rb_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bahasa Indonesia"/>
+
+        <!--<RadioButton
+            android:id="@+id/rb_ch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="China (中國)"/>
+
+        <RadioButton
+            android:id="@+id/rb_jp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Japan(日本)"/>
+
+        <RadioButton
+            android:id="@+id/rb_ar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ىبرع"/>-->
+
+        <Button
+            android:id="@+id/btn_batal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batal"/>
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simpan"/>
+    </RadioGroup>
+</LinearLayout>

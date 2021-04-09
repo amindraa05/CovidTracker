@@ -75,7 +75,6 @@ class HomeFragment : Fragment() {
         showProvince()
     }
 
-
     private fun showIndonesia(){
         RetrofitClient.instance.getIndonesia().enqueue(object :
             Callback<ArrayList<IndonesiaResponse>> {
@@ -94,7 +93,7 @@ class HomeFragment : Fragment() {
 
                 Log.d(TAG, "onResponse: $positive")
 
-                tvPositive.text = positive
+                if(positive != null && tvPositive != null) tvPositive.text = positive
             }
         })
     }

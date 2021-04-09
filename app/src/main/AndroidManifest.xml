@@ -12,9 +12,13 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <receiver
-            android:name=".utils.AlarmReceiver"
+            android:name=".reminder.DailyReminder"
             android:enabled="true"
             android:exported="true"></receiver>
+        <receiver
+            android:name=".utils.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
 
         <activity android:name=".activity.welcome.WelcomeActivity" />
         <activity android:name=".activity.SplashScreen">

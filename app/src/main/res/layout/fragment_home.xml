@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/cairo_bold"
-            android:text="Jaga Kesehatan"
+            android:text="@string/jaga_kesehatan"
             android:textColor="@color/Ungu"
             android:textSize="32dp"
             android:textStyle="bold" />
@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/cairo"
-            android:text="Patuhi protokol kesehatan"
+            android:text="@string/patuhi_protokol_kesehatan"
             android:layout_marginBottom="0dp"
             android:textColor="@color/Ungu"
             android:textSize="16dp"/>

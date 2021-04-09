@@ -6,9 +6,9 @@ import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.covidtracker.R
+import com.example.covidtracker.fragment.BahasaFragment
 import com.example.covidtracker.fragment.HomeFragment
 import com.example.covidtracker.fragment.NotificationFragment
-import com.example.covidtracker.fragment.PersebaranFragment
 import com.example.covidtracker.utils.AlarmReceiver
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         when (item.getItemId()) {
             R.id.ic_home -> fragment = HomeFragment()
             R.id.ic_notification -> fragment = NotificationFragment()
-            R.id.ic_maps -> fragment = PersebaranFragment()
+            R.id.ic_maps -> fragment = BahasaFragment()
         }
         return loadFragment(fragment)
     }

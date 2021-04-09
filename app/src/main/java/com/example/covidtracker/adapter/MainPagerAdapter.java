@@ -5,9 +5,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.example.covidtracker.fragment.BahasaFragment;
 import com.example.covidtracker.fragment.HomeFragment;
 import com.example.covidtracker.fragment.NotificationFragment;
-import com.example.covidtracker.fragment.PersebaranFragment;
 
 public class MainPagerAdapter extends FragmentPagerAdapter {
     public MainPagerAdapter(@NonNull FragmentManager fm) {
@@ -28,7 +28,7 @@ public class MainPagerAdapter extends FragmentPagerAdapter {
                 break;
 
             case 2:
-                fragment = new PersebaranFragment();
+                fragment = new BahasaFragment();
                 break;
         }
         return fragment;

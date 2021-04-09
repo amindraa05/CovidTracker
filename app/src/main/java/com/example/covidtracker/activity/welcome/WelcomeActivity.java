@@ -30,19 +30,11 @@ public class WelcomeActivity extends AppCompatActivity {
     private int[] layouts;
     private Button btnMulai;
     private TextView btnNext;
-    private PrefManager prefManager;
 
     @SuppressLint("ObsoleteSdkInt")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        // mengecek lauch activity - sebelum memanggil setContentView()
-        prefManager = new PrefManager(this);
-        if (!prefManager.isFirstTimeLaunch()) {
-            launchHomeScreen();
-            finish();
-        }
 
         // membuat transparan notifikasi
         if (Build.VERSION.SDK_INT >= 21) {
@@ -121,7 +113,6 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     private void launchHomeScreen() {
-        prefManager.setFirstTimeLaunch(false);
         startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
         finish();
     }
