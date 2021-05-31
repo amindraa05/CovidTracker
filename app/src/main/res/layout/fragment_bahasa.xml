@@ -14,7 +14,7 @@
             android:id="@+id/rb_en"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="English (US)"/>
+            android:text="@string/english_us"/>
 
         <!--<RadioButton
             android:id="@+id/rb_uk"
@@ -26,7 +26,7 @@
             android:id="@+id/rb_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bahasa Indonesia"/>
+            android:text="@string/bahasa_indonesia"/>
 
         <!--<RadioButton
             android:id="@+id/rb_ch"
@@ -50,12 +50,12 @@
             android:id="@+id/btn_batal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Batal"/>
+            android:text="@string/batal"/>
 
         <Button
             android:id="@+id/btn_simpan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Simpan"/>
+            android:text="@string/simpan"/>
     </RadioGroup>
 </LinearLayout>

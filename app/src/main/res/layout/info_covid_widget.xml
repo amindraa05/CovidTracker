@@ -10,23 +10,23 @@
         android:id="@+id/tv_positif"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="..."/>
+        android:text="0"/>
 
     <TextView
         android:id="@+id/tv_meninggal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="..."/>
+        android:text="0"/>
 
     <TextView
         android:id="@+id/tv_sembuh"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="..."/>
+        android:text="0"/>
 
     <TextView
         android:id="@+id/tv_dirawat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="..."/>
+        android:text="0"/>
 </LinearLayout>

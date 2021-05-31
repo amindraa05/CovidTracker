@@ -30,7 +30,7 @@
         android:layout_marginBottom="30dp"
         android:background="@null"
         android:clickable="true"
-        android:text="Lewati"
+        android:text="@string/lewati"
         android:textColor="@color/WarnaTiga"
         android:textSize="22sp" />
 
@@ -43,7 +43,7 @@
         android:layout_marginBottom="22dp"
         android:background="@null"
         android:textSize="16sp"
-        android:text="Mulai Sekarang"
+        android:text="@string/mulai_sekarang"
        />
 
 

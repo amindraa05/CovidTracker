@@ -1,10 +1,28 @@
 <resources>
-    <string name="app_name">Info Covid 19</string>
+    <string name="app_name">Covid 19 Info</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="content_text">konten</string>
-    <string name="jaga_kesehatan">Bahasa Inggris</string>
-    <string name="patuhi_protokol_kesehatan">Patuhi protokol kesehatan</string>
+    <string name="content_text">content</string>
+    <string name="jaga_kesehatan">Stay Safe</string>
+    <string name="patuhi_protokol_kesehatan">" Adhere to health protocols"</string>
+    <string name="appwidget_text">Covid Tracker Widget</string>
+    <string name="add_widget">Add Widget</string>
+    <string name="lewati">Skip</string>
+    <string name="mulai_sekarang">Start Now</string>
+    <string name="english_us">English (US)</string>
+    <string name="bahasa_indonesia">Bahasa</string>
+    <string name="batal">Cancel</string>
+    <string name="simpan">Save</string>
+    <string name="dan_lakukan_pola_hidup_sehat">and keep a healthy lifestyle</string>
+    <string name="total_kasus_di_indonesia">Total cases in Indonesia</string>
+    <string name="batalnotif">Cancel</string>
+    <string name="simpannotif">Save</string>
+    <string name="positifprov">Positive</string>
+    <string name="sembuhprov">Recovered</string>
+    <string name="meninggalprov">Death</string>
+    <string name="home">Home</string>
+    <string name="notifikasi">Notification</string>
+    <string name="bahasa">Language</string>
     <!-- TODO: Remove or change this placeholder text -->
 
 </resources>

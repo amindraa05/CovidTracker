@@ -5,6 +5,22 @@
     <string name="content_text">konten</string>
     <string name="jaga_kesehatan">Jaga Kesehatan</string>
     <string name="patuhi_protokol_kesehatan">Patuhi protokol kesehatan</string>
-    <string name="appwidget_text">EXAMPLE</string>
-    <string name="add_widget">Add widget</string>
+    <string name="appwidget_text">Covid Widget</string>
+    <string name="add_widget">Tambah Widget</string>
+    <string name="lewati">Lewati</string>
+    <string name="mulai_sekarang">Mulai Sekarang</string>
+    <string name="english_us">Bahasa Inggris</string>
+    <string name="bahasa_indonesia">Bahasa Indonesia</string>
+    <string name="batal">Batal</string>
+    <string name="simpan">Simpan</string>
+    <string name="dan_lakukan_pola_hidup_sehat">dan lakukan pola hidup sehat</string>
+    <string name="total_kasus_di_indonesia">Total Kasus di Indonesia</string>
+    <string name="batalnotif">Batal</string>
+    <string name="simpannotif">Simpan</string>
+    <string name="positifprov">Positif</string>
+    <string name="sembuhprov">Sembuh</string>
+    <string name="meninggalprov">Meninggal</string>
+    <string name="home">Beranda</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="bahasa">Bahasa</string>
 </resources>

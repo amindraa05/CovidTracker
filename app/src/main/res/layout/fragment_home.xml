@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/cairo"
-            android:text="dan lakukan pola hidup sehat"
+            android:text="@string/dan_lakukan_pola_hidup_sehat"
             android:layout_marginTop="0dp"
             android:textColor="@color/Ungu"
             android:textSize="16dp"/>
@@ -80,7 +80,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/cairo_bold"
             android:layout_marginTop="2dp"
-            android:text="Total Kasus di Indonesia"
+            android:text="@string/total_kasus_di_indonesia"
             android:textColor="@android:color/white"
             android:textSize="20sp" />
 
