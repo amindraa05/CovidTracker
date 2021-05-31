@@ -28,7 +28,7 @@
         android:textSize="36sp"
         android:fontFamily="@font/cairo"
         android:textStyle="bold"
-        android:text="Headline 2" />
+        android:text="Jaga Kesehatan" />
 
     <TextView
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_judul"
         android:textSize="16sp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus"/>
+        android:text="Makan teratur, Istirahat yang cukup dan Pola hidup sehat adalah kunci untuk menjaga diri dari virus Coid-19"/>
 
 
 </RelativeLayout>
