@@ -5,4 +5,6 @@
     <string name="content_text">konten</string>
     <string name="jaga_kesehatan">Jaga Kesehatan</string>
     <string name="patuhi_protokol_kesehatan">Patuhi protokol kesehatan</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
 </resources>

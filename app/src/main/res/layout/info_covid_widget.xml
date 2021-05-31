@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/appWidgetBackgroundColor"
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/ThemeOverlay.InfoCovid19.AppWidgetContainer"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_positif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."/>
+
+    <TextView
+        android:id="@+id/tv_meninggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."/>
+
+    <TextView
+        android:id="@+id/tv_sembuh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."/>
+
+    <TextView
+        android:id="@+id/tv_dirawat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."/>
+</LinearLayout>
