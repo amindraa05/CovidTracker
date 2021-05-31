@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_judul"
         android:textSize="16sp"
-        android:text="Makan teratur, Istirahat yang cukup dan Pola hidup sehat adalah kunci untuk menjaga diri dari virus Coid-19"/>
+        android:text="Makan teratur, Istirahat yang cukup dan Pola hidup sehat adalah kunci untuk menjaga diri dari virus Covid-19"/>
 
 
 </RelativeLayout>
