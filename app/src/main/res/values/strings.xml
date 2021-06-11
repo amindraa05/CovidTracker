@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Info Covid 19</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="content_text">konten</string>
-    <string name="jaga_kesehatan">Jaga Kesehatan</string>
+    <string name="jaga_kesehatanintro">Jaga Kesehatan</string>
     <string name="patuhi_protokol_kesehatan">Patuhi protokol kesehatan</string>
     <string name="appwidget_text">Covid Widget</string>
     <string name="add_widget">Tambah Widget</string>
@@ -23,4 +23,9 @@
     <string name="home">Beranda</string>
     <string name="notifikasi">Notifikasi</string>
     <string name="bahasa">Bahasa</string>
+    <string name="intro2" translatable="false">Makan teratur, Istirahat yang cukup dan Pola hidup sehat adalah kunci untuk menjaga diri dari virus Covid-19</string>
+    <string name="vaksin_kuy" translatable="false">Vaksin Kuy!</string>
+    <string name="untuk_menjaga_imunitas_tubuh_dan_membantu_menekan_penyebaran_covid_19_di_indonesia" translatable="false">Untuk menjaga imunitas tubuh dan membantu menekan penyebaran Covid-19 di Indonesia</string>
+    <string name="lindungi_keluarga" translatable="false">Lindungi Keluarga</string>
+    <string name="kesehatan_orang_tersayang_adalah_yang_utama_lindungilah_mereka_dengan_selalu_menjaga_kesehatan" translatable="false">Kesehatan orang tersayang adalah yang utama, lindungilah mereka dengan selalu menjaga kesehatan</string>
 </resources>

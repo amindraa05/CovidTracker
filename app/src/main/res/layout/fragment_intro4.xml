@@ -28,7 +28,7 @@
         android:textSize="36sp"
         android:fontFamily="@font/cairo"
         android:textStyle="bold"
-        android:text="Lindungi Keluarga" />
+        android:text="@string/lindungi_keluarga" />
 
     <TextView
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_judul"
         android:textSize="16sp"
-        android:text="Kesehatan orang tersayang adalah yang utama, lindungilah mereka dengan selalu menjaga kesehatan"/>
+        android:text="@string/kesehatan_orang_tersayang_adalah_yang_utama_lindungilah_mereka_dengan_selalu_menjaga_kesehatan"/>
 
 
 </RelativeLayout>

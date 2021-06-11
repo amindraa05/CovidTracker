@@ -3,7 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="content_text">content</string>
-    <string name="jaga_kesehatan">Stay Safe</string>
+    <string name="jaga_kesehatanintro">Stay Safe</string>
     <string name="patuhi_protokol_kesehatan">" Adhere to health protocols"</string>
     <string name="appwidget_text">Covid Tracker Widget</string>
     <string name="add_widget">Add Widget</string>

@@ -28,7 +28,7 @@
         android:textSize="36sp"
         android:fontFamily="@font/cairo"
         android:textStyle="bold"
-        android:text="Vaksin Kuy!" />
+        android:text="@string/vaksin_kuy" />
 
     <TextView
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_judul"
         android:textSize="16sp"
-        android:text="Untuk menjaga imunitas tubuh dan membantu menekan penyebaran Covid-19 di Indonesia"/>
+        android:text="@string/untuk_menjaga_imunitas_tubuh_dan_membantu_menekan_penyebaran_covid_19_di_indonesia"/>
 
 
 </RelativeLayout>

@@ -3,24 +3,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.BahasaFragment">
+    tools:context=".fragment.BahasaFragment"
+    android:background="@color/MainWarna">
+
+
+
 
     <RadioGroup
         android:id="@+id/rg_lang"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairo_bold"
+            android:text="Pilih Bahasamu!"
+            android:textColor="@color/Ungu"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairo"
+            android:text="Untuk memudahkan akses aplikasi,"
+            android:layout_marginBottom="0dp"
+            android:textColor="@color/Ungu"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cairo"
+            android:text="Pilihlah bahasa yang diinginkan"
+            android:layout_marginBottom="0dp"
+            android:textColor="@color/Ungu"
+            android:textSize="16dp"/>
 
         <RadioButton
             android:id="@+id/rb_en"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/english_us"/>
-
-        <!--<RadioButton
-            android:id="@+id/rb_uk"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="English (UK)"/>-->
+            android:text="@string/english_us"
+            android:layout_marginTop="20dp"/>
 
         <RadioButton
             android:id="@+id/rb_id"
@@ -28,23 +54,6 @@
             android:layout_height="wrap_content"
             android:text="@string/bahasa_indonesia"/>
 
-        <!--<RadioButton
-            android:id="@+id/rb_ch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="China (中國)"/>
-
-        <RadioButton
-            android:id="@+id/rb_jp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Japan(日本)"/>
-
-        <RadioButton
-            android:id="@+id/rb_ar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="ىبرع"/>-->
 
         <Button
             android:id="@+id/btn_batal"
