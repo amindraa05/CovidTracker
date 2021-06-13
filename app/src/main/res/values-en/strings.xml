@@ -23,6 +23,15 @@
     <string name="home">Home</string>
     <string name="notifikasi">Notification</string>
     <string name="bahasa">Language</string>
+    <string name="intro2">Eating regularly, adequate rest and a healthy lifestyle are the keys to protecting yourself from the Covid-19 virus</string>
+    <string name="vaksin_kuy">" Let's Vaccinate!"</string>
+    <string name="untuk_menjaga_imunitas_tubuh_dan_membantu_menekan_penyebaran_covid_19_di_indonesia">To maintain body immunity and help suppress the spread of Covid-19 in Indonesia</string>
+    <string name="lindungi_keluarga">" Protect Our Family"</string>
+    <string name="kesehatan_orang_tersayang_adalah_yang_utama_lindungilah_mereka_dengan_selalu_menjaga_kesehatan">The health of loved ones is the main thing, protect them by always taking care of their health</string>
+    <string name="pilih_bahasamu">Choose Your Language</string>
+    <string name="untuk_memudahkan_akses_aplikasi">For easy access to the application,</string>
+    <string name="pilihlah_bahasa_yang_diinginkan">Choose ur desired language</string>
+    <string name="jaga_kesehatan">Stay Healthy</string>
     <!-- TODO: Remove or change this placeholder text -->
 
 </resources>

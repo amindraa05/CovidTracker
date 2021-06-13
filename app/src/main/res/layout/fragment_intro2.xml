@@ -28,7 +28,7 @@
         android:textSize="36sp"
         android:fontFamily="@font/cairo"
         android:textStyle="bold"
-        android:text="Jaga Kesehatan" />
+        android:text="@string/jaga_kesehatan" />
 
     <TextView
         android:layout_width="match_parent"
