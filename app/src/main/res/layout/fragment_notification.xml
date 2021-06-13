@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".fragment.NotificationFragment"
     android:orientation="vertical"
-    android:background="@color/MainWarna"
+    android:background="#F6F6F6"
     android:gravity="center">
 
     <TimePicker

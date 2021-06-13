@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.BahasaFragment"
-    android:background="@color/MainWarna">
+    android:background="#F6F6F6">
     <RadioGroup
         android:id="@+id/rg_lang"
         android:layout_width="match_parent"
@@ -70,6 +70,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/batal"
+            android:textColor="#661D79"
+            android:textStyle="bold"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,6 +80,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/simpan"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:backgroundTint="#661D79"
             app:layout_constraintLeft_toRightOf="@id/btn_batal"
             app:layout_constraintTop_toTopOf="parent" />
 
