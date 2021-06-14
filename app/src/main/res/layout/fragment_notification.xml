@@ -9,12 +9,40 @@
     android:background="#F6F6F6"
     android:gravity="center">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cairo_bold"
+        android:textColor="@color/Ungu"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:text="Atur Reminder!">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cairo"
+        android:textColor="@color/Ungu"
+        android:text="Tentukan waktu sesuai pilihamu agar kami"
+        android:textSize="16dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cairo"
+        android:textColor="@color/Ungu"
+        android:textSize="16dp"
+        android:text="dapat memberi informasi covid secara realtime!">
+    </TextView>
+
     <TimePicker
-        android:layout_margin="40dp"
+        android:layout_margin="35dp"
         android:id="@+id/time_picker"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
+        android:layout_height="wrap_content"
+        />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
