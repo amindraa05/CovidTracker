@@ -17,7 +17,7 @@
             android:fontFamily="@font/cairo_bold"
             android:text="@string/pilih_bahasamu"
             android:textColor="@color/Ungu"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:textStyle="bold"
             android:layout_marginTop="30dp"/>
         <TextView
@@ -27,7 +27,7 @@
             android:text="@string/untuk_memudahkan_akses_aplikasi"
             android:layout_marginBottom="0dp"
             android:textColor="@color/Ungu"
-            android:textSize="18dp"/>
+            android:textSize="18sp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
             android:text="@string/pilihlah_bahasa_yang_diinginkan"
             android:layout_marginBottom="0dp"
             android:textColor="@color/Ungu"
-            android:textSize="18dp"/>
+            android:textSize="18sp"/>
 
         <ImageView
             android:layout_width="120dp"
@@ -47,18 +47,34 @@
 
         </ImageView>
 
-        <RadioButton
-            android:id="@+id/rb_en"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/english_us"
-            android:layout_marginTop="20dp"/>
-
-        <RadioButton
-            android:id="@+id/rb_id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/bahasa_indonesia"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="80dp"
+            android:background="#ffffff">
+            <RadioButton
+                android:id="@+id/rb_en"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/english_us"
+                android:textColor="@color/Ungu"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="80dp"
+            android:background="#ffffff">
+            <RadioButton
+                android:id="@+id/rb_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bahasa_indonesia"
+                android:textColor="@color/Ungu"
+                android:textStyle="bold"/>
+        </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
