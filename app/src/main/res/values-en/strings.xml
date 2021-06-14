@@ -32,6 +32,9 @@
     <string name="untuk_memudahkan_akses_aplikasi">For easy access to the application,</string>
     <string name="pilihlah_bahasa_yang_diinginkan">Choose ur desired language</string>
     <string name="jaga_kesehatan">Stay Healthy</string>
+    <string name="atur_reminder">Set Reminder</string>
+    <string name="tentukan_waktu_sesuai_pilihamu_agar_kami">" Determine the time according to your choice so that we"</string>
+    <string name="dapat_memberi_informasi_covid_secara_realtime">" can provide information on covid in real time!"</string>
     <!-- TODO: Remove or change this placeholder text -->
 
 </resources>
