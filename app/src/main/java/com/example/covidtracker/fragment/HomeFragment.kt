@@ -80,8 +80,10 @@ class HomeFragment : Fragment() {
             Callback<ArrayList<IndonesiaResponse>> {
 
             override fun onFailure(call: Call<ArrayList<IndonesiaResponse>>, t: Throwable) {
-                Toast.makeText(context, "${t.message}", Toast.LENGTH_SHORT).show()
-                Log.d(TAG, "onFailure: ${t.message}")
+                if (context != null) {
+                    Toast.makeText(context, "${t.message}", Toast.LENGTH_SHORT).show()
+                    Log.d(TAG, "onFailure: ${t.message}")
+                }
             }
 
             override fun onResponse(
@@ -106,7 +108,9 @@ class HomeFragment : Fragment() {
             Callback<ArrayList<ProvinceResponse>> {
 
             override fun onFailure(call: Call<ArrayList<ProvinceResponse>>, t: Throwable) {
-                Toast.makeText(context, "${t.message}", Toast.LENGTH_SHORT).show()
+                if (context != null) {
+                    Toast.makeText(context, "${t.message}", Toast.LENGTH_SHORT).show()
+                }
 
                 Log.d(TAG, "onFailure: ${t.message}")
             }

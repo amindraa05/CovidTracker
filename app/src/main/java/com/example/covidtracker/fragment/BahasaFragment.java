@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -71,7 +72,9 @@ public class BahasaFragment extends Fragment implements View.OnClickListener{
         int id = v.getId();
         if (id == R.id.btn_simpan){
             userPreference.setLanguage(selectedLanguage);
+            Log.d("tagg", selectedLanguage);
             loadLanguageFromPreference();
+            if (getActivity() != null) getActivity().recreate();
         } else if (id == R.id.btn_batal){
             loadLanguageFromPreference();
         }
